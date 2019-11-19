@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherData</title>
+    <link rel="stylesheet" href="vis.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column">
+        <div id="page-content">
+            <div class="container">
+                <br>
+                <div class="row">
+                    <div class="col-8">
+                        <h2 id= "title">Latitude</h2>
+                    </div>
+                    <div class="col-4">
+                        <div class="navbar">
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Plots
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="file1.html">Temperature</a>
+                                  <a class="dropdown-item" href="file2.html">Humidity</a>
+                                  <a class="dropdown-item" href="file3.html">Cloudiness</a>
+                                  <a class="dropdown-item" href="file4.html">Wind Speed</a>
+                                </div>
+                              </div>
+                            <a href="comp.html">Comparison</a>
+                            <a href="data.html">Data</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-7">
+                    <div class="container" id="cuadsum">
+                        <h2 id="titsum">Summary: Latitude vs. X</h2>
+                        <br>
+                        <img src="./Resources/Fig1.png" alt="f1" width="300px" height="206.25px" align = "left">
+                        <br>
+                        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlation witnessed.</p>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="container" id="vis">
+                        <h2 id="titvis">Visualization</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="file1.html">
+                                <img src="./Resources/Fig1.png" alt="F1" width="200" height="137.5">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="file2.html">
+                                <img src="./Resources/Fig2.png" alt="F2" width="200" height="137.5">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-6">
+                                    <a href="file3.html">
+                                    <img src="./Resources/Fig3.png" alt="F3" width="200" height="137.5">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="file4.html">
+                                    <img src="./Resources/Fig4.png" alt="F4" width="200" height="137.5">
+                                    </a>
+                                </div>
+                            </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>Copyright &copy; Coding Bootcamp 2019</small>
+          </div>
+        </footer>
+      </body>
+</html>

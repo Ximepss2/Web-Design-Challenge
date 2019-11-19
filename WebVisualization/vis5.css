@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;   
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #aaaaaa;
+  background: linear-gradient(to right, #e92424e3, #1e7eec);
+}
+
+#title{
+    padding:8px;
+    color: black;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+
+#cuadsum{
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#titsum{
+    color: rgb(105, 6, 52);
+    text-align: center;
+}
+
+#titvis{
+    color: rgb(17, 70, 216);
+    text-align: center;
+}
+
+#vis{
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+}

@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #aaaaaa;
+  background: linear-gradient(to left, #c7099ec2, #e6f13e);
+}
+
+.navbar a{
+    padding: 8px;
+    color: white;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#nav-select{
+    padding: 8px;
+    color: black;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#title{
+    padding:8px;
+    color: black;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+
+#cuadsum{
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#titsum{
+    color: rgb(230, 226, 30);
+    text-align: center;
+}
+
+#titvis{
+    color: rgb(233, 15, 106);
+    text-align: center;
+}
+
+#vis{
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
