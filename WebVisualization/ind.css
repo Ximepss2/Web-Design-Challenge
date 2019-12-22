@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;   
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #aaaaaa;
+  background: linear-gradient(to left, #f8930fc2, #d005eb);
+}
+
+#titpag{
+    color: white;
+}
+
+.about{
+    text-align: justify;
+    font-size: x-large;
+}
